@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body    {
+    height: 100vh;
+    background-image: url(./Assets/Background\ Image\ 1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menubar {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menubar ul li {
+    padding: 10px 40px;
+    position: relative;
+}
+
+.menubar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+
+    transition: all 0.3s;
+}
+
+.menubar ul li a:hover {
+    color: lightgray;
+}
+
+.mainimage {
+    min-height: calc(100vh - 60px);
+}
+
+.maintext   {
+    position: relative;
+    display: flex;
+    margin: 30px auto;
+    margin-top: 5%;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+
+    padding: 15px 25px;
+    justify-content: space-evenly;
+}
+
+.maintext a {
+    font-size: 25pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(51, 102, 51);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+    border-radius: 16px;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 80px;
+}
+
+.maintext a p {
+    padding: 3px;
+}
+
+.maintext a:hover {
+    background-color: rgba(51, 102, 51, 0.7);
+}
+
+.projectListing {
+    width: 65%;
+    margin: 25px 17.5%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    border-radius: 10px;
+}
+
+.projectListing img {
+    height: 250px;
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.projectListing img:hover {
+    transform: scale(105%);
+}
+
+.productNameDesc {
+    padding-left: 30px;
+    width: 55%;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.productNameDesc ul {
+    color: darkslategray
+}
+
+.productNameDesc h2 {
+    margin-bottom: 5%;
+    color: rgba(51, 102, 51);
+} 
