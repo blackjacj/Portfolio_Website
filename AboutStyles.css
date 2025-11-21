@@ -48,8 +48,9 @@ body {
 .abouttext h1 {
     text-align: center;
     margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 40pt;
-    width: 50vw;
     padding-bottom: 2%;
     border-bottom: 1px solid rgb(31, 154, 31);;
 }
@@ -68,6 +69,9 @@ body {
 }
 
 .aboutcontainer img {
+    margin-left: 10%;
+    margin-top: 2%;
     width: 50vw;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 120px);
+    border-radius: 20px;
 }
